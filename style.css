@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Syne',sans-serif;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    background:#0a0a0a;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* Cursor */
+
+.cursor{
+    width:20px;
+    height:20px;
+    border:2px solid white;
+    border-radius:50%;
+    position:fixed;
+    pointer-events:none;
+    z-index:9999;
+    transform:translate(-50%,-50%);
+}
+
+/* Navbar */
+
+header{
+    width:100%;
+    padding:30px 8%;
+    position:fixed;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:1.5rem;
+    font-weight:800;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#999;
+}
+
+/* Hero */
+
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    padding:0 8%;
+}
+
+.hero-content h1{
+    font-size:8vw;
+    line-height:0.9;
+    font-weight:800;
+}
+
+.hero-content p{
+    margin-top:25px;
+    font-size:1.2rem;
+    color:#b3b3b3;
+}
+
+.hero-content button{
+    margin-top:35px;
+    padding:15px 35px;
+    border:none;
+    cursor:pointer;
+    font-size:1rem;
+    font-weight:600;
+}
+
+/* About */
+
+.about{
+    min-height:100vh;
+    padding:120px 8%;
+}
+
+.about h2{
+    font-size:4rem;
+    margin-bottom:30px;
+}
+
+.about p{
+    max-width:700px;
+    color:#b3b3b3;
+    font-size:1.2rem;
+    line-height:1.8;
+}

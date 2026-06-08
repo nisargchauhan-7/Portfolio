@@ -83,19 +83,11 @@ I enjoy creating modern, interactive, and user-focused digital experiences while
 * CMS Integration
 * Performance Optimization
 
-## 🌐 Live Demo
-
-GitHub Pages Link:
-
-```text
-https://yourusername.github.io/portfolio-website/
-```
-
 ## 📫 Connect With Me
 
-* GitHub: https://github.com/yourusername
-* LinkedIn: https://linkedin.com/in/yourusername
-* Email: [your.email@example.com](mailto:your.email@example.com)
+* GitHub: https://github.com/nisargchauhan-7
+* LinkedIn: https://linkedin.com/in/nisargchauhan07
+* Email: [nisargchauhan60@gmail.com](mailto:nisargchauhan60@gmail.com)
 
 ## 📜 License
 
